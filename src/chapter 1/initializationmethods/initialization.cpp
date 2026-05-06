@@ -4,7 +4,11 @@ int main()
 {
     [[maybe_unused]] double pi { 3.14159 };  // Don't complain if pi is unused
     [[maybe_unused]] double gravity { 9.8 }; // Don't complain if gravity is unused
-    [[maybe_unused]] double phi { 1.61803 }; // Don't complain if phi is unused
+    [[maybe_unused]] double phi { 1.61803 }; // Don't complain if phi is unused 
+    int b = 5; // copy-initialization
+    int c(6); // direct-initialization
+    int d {7}; // direct-list initialization
+    int e {} ; // value-initialization
 
     std::cout << pi << '\n';
     std::cout << phi << '\n';
