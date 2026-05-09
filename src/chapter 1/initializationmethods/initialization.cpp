@@ -12,7 +12,7 @@ int main()
 
     std::cout << pi << '\n';
     std::cout << phi << '\n';
-    std::cout << "im mad retarded";
+    std::cout << "im mad retarded\n";
     // The compiler will no longer warn about gravity not being used
 
     return 0;

@@ -7,6 +7,6 @@ int main()
     std::cout << "Enter three numbers: ";
     std::cin >> x >> y >> z;
 
-    std::cout << "You entered " << x << ", " << y << " and " << z;
+    std::cout << "You entered " << x << ", " << y << " and " << z << "\n";
     return 0;
 }
