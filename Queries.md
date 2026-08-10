@@ -1,0 +1,1 @@
+g++ is the compiler. A Makefile is a set of instructions telling the compiler what to compile and when.
