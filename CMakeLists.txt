@@ -4,6 +4,7 @@ project(LearnCpp)
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+message(${CMAKE_CXX_COMPILER})
 file(GLOB_RECURSE SOURCES "${CMAKE_SOURCE_DIR}/src/*.cpp")
 include_directories(include)
 add_executable(main ${SOURCES})

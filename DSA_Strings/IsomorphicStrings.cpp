@@ -41,6 +41,8 @@
       } else {
           cout << "Strings are not isomorphic." << endl;
       }
+
+      cout << __cplusplus << '\n';
       
       return 0;
   }
