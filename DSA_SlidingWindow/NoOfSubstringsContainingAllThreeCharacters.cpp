@@ -39,5 +39,7 @@ int main(){
     string nums = "bbabc";
     Solution sol;
     cout << sol.numberOfSubstringsOptimal(nums) << "\n";
+    cout<<boolalpha;
+    cout << true << '\n';
     return 0;
 }
