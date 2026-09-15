@@ -32,6 +32,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "-std=c++23",
                 "-o",
                 "${fileDirname}/${fileBasenameNoExtension}"
             ],
@@ -55,6 +56,7 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}", 
+                "-std=c++23",
                 "${workspaceFolder}/src/main.cpp",
                 "-o",
                 "${workspaceFolder}/src/debug_active"
