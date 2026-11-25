@@ -8,6 +8,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
+                "-std=c++23",
                 "${workspaceFolder}/src/main.cpp",
                 "${workspaceFolder}/src/MathOps/io.cpp",
                 "-o",

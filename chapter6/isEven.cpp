@@ -12,6 +12,6 @@ int main()
     int x {};
     cout << "Enter value of x: ";
     cin >> x;
-    string value = (isEven(x) == true) ? "even" : "odd";
+    string_view value = (isEven(x) == true) ? "even" : "odd";
     cout << x << " is " << value << endl;
 }

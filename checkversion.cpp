@@ -8,7 +8,6 @@ int main() {
     else if (__cplusplus == 201103L) std::cout << "C++11";
     else if (__cplusplus == 199711L) std::cout << "C++98";
     else std::cout << "Unknown/Pre-standard C++";
-    
     std::cout << std::endl;
     return 0;
-}   
+}
