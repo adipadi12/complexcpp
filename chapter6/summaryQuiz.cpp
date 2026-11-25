@@ -1,6 +1,5 @@
 #include <iostream>
 
-// Write the function getQuantityPhrase() here
 constexpr std::string_view getQuantityPhrase(int x)
 {
     if(x < 0) return "negative";
@@ -11,7 +10,6 @@ constexpr std::string_view getQuantityPhrase(int x)
     return "many";
 }
 
-// Write the function getApplesPluralized() here
 constexpr std::string_view getApplesPluralized(int x)
 {
     return (x == 1) ? "apple" : "apples";
